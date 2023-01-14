@@ -4,5 +4,30 @@ using UnityEngine;
 
 public class exercise2 : MonoBehaviour
 {
-    
+    public string username;
+    public string password;
+
+    private void Start()
+    {
+        if (Login("admin", "abccba"))
+        {
+            Debug.Log(true);
+        }
+        else
+        {
+            Debug.Log(false);
+        }
+    }
+
+    private bool Login (string username, string password)
+    {
+        if (username == "admin" && password == "abccba")
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
