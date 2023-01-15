@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class exercise4 : MonoBehaviour
+public class exercise5 : MonoBehaviour
 {
     public int[] integers;
 
