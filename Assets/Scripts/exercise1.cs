@@ -9,13 +9,13 @@ public class exercise1 : MonoBehaviour
     private void Start()
     {
         sum = Operation(5, 10, 15);
-        Debug.Log(sum);
+        Debug.Log(sum);        //function call
     }
 
     
-    private int Operation (int x, int y, int z)
+    private int Operation (int x, int y, int z) //operation function 
     {
         int result = x + y + z;
-        return result / 3;
+        return result / 3; //returns the total result
     }
 }

@@ -11,5 +11,9 @@ public class exercise5 : MonoBehaviour
         Debug.Log($"First element = {integers[0]}");
         Debug.Log($"Third element = {integers[2]}");
         Debug.Log($"Fifth element = {integers[4]}");
+
+        
     }
+
+    
 }
