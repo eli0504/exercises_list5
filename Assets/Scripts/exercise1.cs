@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class exercise1 : MonoBehaviour
 {
-    public int sum;
-   
-    private void Start()
-    {
-        sum = Operation(5, 10, 15);
-        Debug.Log(sum);        //function call
-    }
-
+    public int sum; //variable
     
     private int Operation (int x, int y, int z) //operation function 
     {

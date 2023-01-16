@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class exercise3 : MonoBehaviour
 {
-    public int clickCounter;
+    public int clickCounter; //variable for click
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A)) //when you click "A" adds one to a counter
         {
             AddOneToCounter();
         }
 
-        if (clickCounter == 10)
+        if (clickCounter == 10) /*
+                                 if the counter is equal to 10, it is game over
+                                 */
         {
             Debug.Log("¡GAME OVER!");
 
@@ -22,6 +24,6 @@ public class exercise3 : MonoBehaviour
 
     private void AddOneToCounter()
     {
-        clickCounter++;
+        clickCounter++; // adds one to a counter
     }
 }
